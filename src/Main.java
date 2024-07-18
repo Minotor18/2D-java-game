@@ -1,6 +1,3 @@
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JFrame;
 
 
 public class Main{
@@ -19,7 +16,7 @@ public static void main(String[] args) {
     for(int i=0;i<num_friends;i++)
         friends[i] = g.new Friend();
     Game.AirCraft aircraft = g.new AirCraft();
-   /* aircraft.start();
+    aircraft.start();
     for(int i=0;i<num_enemies;i++)
         enemies[i].start();
     for(int i=0;i<num_friends;i++)
@@ -31,8 +28,8 @@ public static void main(String[] args) {
             friends[i].join();
         aircraft.join();
     } catch (InterruptedException e) {
-        // TODO Auto-generated catch block
+        
         e.printStackTrace();
-    }*/
+    }
 	}
 }
