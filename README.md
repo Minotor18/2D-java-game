@@ -1,6 +1,6 @@
-##This game is a java war game made using threads.
+This game is a java war game made using threads.
 
-#How to Play Game
+How to Play Game
 
 ==> "w","a","s","d" => direction keys
 
